@@ -6,6 +6,8 @@ intents:
   - city_info
   - thanks
 
+entities:
+  - city
 responses:
   utter_greet:
   - text: "Hey!"

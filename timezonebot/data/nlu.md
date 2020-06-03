@@ -22,21 +22,23 @@
 - What time is it?
 
 ## intent:find_time_zone_for_location
-- what is the time zone of London?
-- time zone of Lisbon
-- Do you know the time zone of Berlin
-- I need to know the time zone of Delhi
-- Could you tell me about the time zone of Mumbai?
-- What is the time zone of Dubai?
+- what is the time zone of [London](city)?
+- time zone of [Lisbon](city)
+- Do you know the time zone of [Berlin](city)
+- I need to know the time zone of [Delhi](city)
+- Could you tell me about the time zone of [Mumbai](city)?
+- What is the time zone of [Dubai](city)?
+- [Oslo](city) time zone
+- What is the time in [prague](city)
 
 ## intent:city_info
-- London
-- San Francisco
-- Toronto
-- New Delhi
-- Auckland
-- Oslo
-- Mumbai
+- [London](city)
+- [San Francisco](city)
+- [Toronto](city)
+- [New Delhi](city)
+- [Auckland](city)
+- [Oslo](city)
+- [Mumbai](city)
 
 ## intent:thanks
 - Thank You!
