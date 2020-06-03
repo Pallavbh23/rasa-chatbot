@@ -8,10 +8,19 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey!"
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_ask_location:
+  - text: "Which city do you need the time zone of?"
+
+  utter_finding_time_zone:
+  - text: "Okay, give me a second to look it up."
+
+  utter_you_are_welcome:
+  - text: "You are welcome!"
 
 session_config:
   session_expiration_time: 60
