@@ -8,6 +8,12 @@ intents:
 
 entities:
   - city
+
+slots:
+  city:
+    type: text
+    auto_fill: True
+
 responses:
   utter_greet:
   - text: "Hey!"
@@ -19,7 +25,7 @@ responses:
   - text: "Which city do you need the time zone of?"
 
   utter_finding_time_zone:
-  - text: "Okay, give me a second to look it up."
+  - text: "Okay, give me a second to look up the time zone of {city}."
 
   utter_you_are_welcome:
   - text: "You are welcome!"
